@@ -16,8 +16,8 @@ He & his crew tried it in Estonia and did it manually (2015-08-01, Võsu beach f
 
 Lifecycle of phone charging would be then something like this:
 
-1. Customer gives phone [(check photo of the "charging booth")](#)
-2. Worker uses *handband-rfid* software that saves info in which cell worker puts the phone [(check photo of the "charging station")](#)
+1. Customer gives phone [(check photo of the "charging booth")](photos/booth.jpg)
+2. Worker uses *handband-rfid* software that saves info in which cell worker puts the phone [(check photo of the "charging station")](photos/charging-station.jpg)
 3. Person working in the booth connects charger to customer's phone and charges the phone.
 4. Customer gets wristband
 5. Customer enjoys festival and when he/she feels the need to use the phone comes back to the booth and gives back the wristband
@@ -48,3 +48,7 @@ Software needed to run on Mac and PC and on that time everyone was speaking abou
 - online sync
 - statistics
 - employee accounts/worktime logging
+
+# Photo of the team in 2017
+![Team 2017](https://github.com/s22su/handband-rfid/blob/master/photos/team2017.jpg?raw=true)
+
