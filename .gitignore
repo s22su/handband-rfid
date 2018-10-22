@@ -2,7 +2,8 @@
 handband-rfid
 handband-rfid.exe
 node_modules
-
+database/handband.db
 static/js/bundle*
 
 package-lock.json
+vendor/*
