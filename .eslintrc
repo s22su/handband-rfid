@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+        "react/prefer-stateless-function": 0,
+        "max-len": ["error", 180],
+        "no-console": 0,
+        "no-alert": 0,
+        "prefer-template": 0,
+    }
+}
