@@ -2,6 +2,7 @@
 
 1. `cd ~/go/src` or `cd $GOPATH/src` depending on your setup 
 1. `git clone https://github.com/s22su/handband-rfid.git`
+1. `cd handband-rfid`
 1. `dep ensure`
 1. `npm install`
 1. `bower install`
