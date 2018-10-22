@@ -4,3 +4,5 @@ handband-rfid.exe
 node_modules
 
 static/js/bundle*
+
+package-lock.json
