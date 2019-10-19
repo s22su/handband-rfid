@@ -4,8 +4,8 @@ import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/s22su/handband-rfid/models"
-	_ "github.com/s22su/handband-rfid/routers"
+	"handband-rfid/models"
+	_ "handband-rfid/routers"
 )
 
 func init() {

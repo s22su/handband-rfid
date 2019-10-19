@@ -1,8 +1,9 @@
 package routers
 
 import (
+	"handband-rfid/controllers"
+
 	"github.com/astaxie/beego"
-	"github.com/s22su/handband-rfid/controllers"
 )
 
 func init() {

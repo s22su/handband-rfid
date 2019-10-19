@@ -7,7 +7,7 @@ import (
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	models "github.com/s22su/handband-rfid/models"
+	models "handband-rfid/models"
 )
 
 type LogController struct {
