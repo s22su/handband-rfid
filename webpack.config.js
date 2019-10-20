@@ -3,12 +3,21 @@ module.exports = {
 
   output: {
     filename: 'static/js/bundle.js',
-    publicPath: ''
+    publicPath: '',
   },
 
   module: {
-    loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader?presets[]=es2015&presets[]=react' }
-    ]
-  }
-}
+    rules: [
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env', '@babel/preset-react'],
+          },
+        },
+      },
+    ],
+  },
+};
