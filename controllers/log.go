@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"time"
 
+	models "handband-rfid/models"
+
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	models "handband-rfid/models"
 )
 
 type LogController struct {
@@ -130,7 +131,8 @@ func (this *LogController) GetAll() {
 	// TODO: move that code to model
 	o := orm.NewOrm()
 	var log []*models.Log
-	o.QueryTable("log").OrderBy("-Id").One(&log)
+
+	o.QueryTable("log").OrderBy("-Id").All(&log)
 	this.Data["json"] = log
 	this.ServeJSON()
 }
