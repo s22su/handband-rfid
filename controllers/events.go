@@ -3,8 +3,7 @@ package controllers
 import (
 	"encoding/json"
 	"fmt"
-
-	models "github.com/s22su/handband-rfid/models"
+	models "handband-rfid/models"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
